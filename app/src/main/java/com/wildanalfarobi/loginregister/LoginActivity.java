@@ -35,6 +35,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         context=this;
+//        this is comment
         dialog=new ProgressDialog(this);
         usernameET=(EditText)findViewById(R.id.usernameET);
         passwordET=(EditText)findViewById(R.id.passwordET);
